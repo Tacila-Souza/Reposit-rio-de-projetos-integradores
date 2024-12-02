@@ -1,0 +1,47 @@
+
+
+p{
+    color: #0A3DBF;
+    font-weight: 600;
+}
+
+.sobreoprojeto{
+    padding-top: 20px;
+}
+
+#hazul{
+    color: #0A3DBF;
+}
+
+.fotos-sobre img{
+    border-radius: 100%;
+    margin: 15px 0;
+}
+
+#img-allison{
+    background-image: url(../..//imagens/img-allison.jpg);
+}
+#img-joana{
+    background-image: url(../../imagens/img-joana.jpg);
+}
+#img-tacila{
+    background-image: url(../../imagens/img-tacila.jpg);
+}
+#img-thaisy{
+    background-image: url(../../imagens/img-thaisy.jpg);
+} 
+
+#nomes h3{
+    font-weight: 600;
+    background-color: white;
+    color: #0A3DBF;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+
+#email {
+    display: block;
+    border-radius: 10px;
+    background: white;
+}
