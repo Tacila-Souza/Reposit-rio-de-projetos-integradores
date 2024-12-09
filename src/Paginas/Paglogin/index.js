@@ -10,14 +10,15 @@ function Paglogin() {
 
 
             <div class="container" >
-                <div className="row justify-content-center " >
+                <div className="row justify-content-center pb-3" >
     
 
                 <div className="col-8 centralizar" >
 
-                    <h2 style={{marginTop: "20px", textAlign:"center"}}>Fazer Login</h2>
+                    <h2 style={{marginTop: "60px", textAlign:"center"}} id="hazul">Fazer Login</h2>
 
                     <form action="/action_page.php">
+
                     <div class="mb-3 mt-3">
                         <label for="email">Digite seu e-mail:</label>
                         <input type="email" class="form-control" id="email" placeholder="" name="email" />
@@ -34,8 +35,6 @@ function Paglogin() {
                         </label>
                     </div>
                     
-
-
                     </form>
 
                     <div className="mt-3 mb-3">
@@ -60,16 +59,6 @@ function Paglogin() {
             </div>
 
             </body>
-
-
-
-
-
-
-
-
-
-
 
         </>
     )

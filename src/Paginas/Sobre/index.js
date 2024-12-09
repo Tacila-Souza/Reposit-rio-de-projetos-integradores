@@ -9,7 +9,7 @@ function Sobre () {
     return (
         <>
         <Navbar/>
-        <body style={{backgroundColor:'#dfe8ff'}}>
+        <body style={{backgroundColor:'#dfe8ff', height:'800px'}}>
 
             <div className="container ">
 
@@ -19,35 +19,37 @@ function Sobre () {
                 </div>
 
                 <div className="row fotos-sobre text-center">
+                    
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <img src={imgallison} className="img-fluid"></img>
-                        <h3 id="hazul" >Allison Paulino</h3>
-                        <p>Desenvolimento</p>
+                        <h4 id="hazul" >Allison Paulino</h4>
+                        <p>Página Home</p>
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <img src={imgjoana} className="img-fluid"></img>
-                        <h3 id="hazul">Joana Dark</h3>
-                        <p>Desenvolimento</p>
+                        <h4 id="hazul">Joana Dark</h4>
+                        <p>Páginas login e criar conta</p>
                     </div>
 
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <img src={imgtacila} className="img-fluid"></img>
-                        <h3 id="hazul">Tacila Souza</h3>
-                        <p>Desenvolimento</p>
+                        <h4 id="hazul">Tacila Souza</h4>
+                        <p>Página projeto</p>
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <img src={imgthaisy} className="img-fluid"></img>
-                        <h3 id="hazul">Thaisy Ferreira</h3>
-                        <p>Desenvolimento</p>
+                        <h4 id="hazul">Thaisy Ferreira</h4>
+                        <p>Págna sobre</p>
                     </div>
 
                 </div>
 
 
-                <div className="row text-center justify-content-center">
+
+                <div className="row text-center justify-content-center" style={{margin:'45px 0'}}>
                     <h2 id="hazul">Entre em contato com a gente!</h2>
                     <p>Se você deseja contribuir com o nosso projeto ou tem alguma sugestão entre em contato conosco através do e-mail: </p>
                     <p className="col-6" id="email">conect.etepe@gmail.com</p>
@@ -56,6 +58,8 @@ function Sobre () {
 
 
             </div>
+
+            
         </body>
 
     

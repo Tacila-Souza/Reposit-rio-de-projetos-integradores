@@ -26,7 +26,7 @@ function navbar() {
 
                 <Link id="azul1" className="navbar-brand" to='/Etes' style={{ fontWeight: 'bold' , padding: '0 15px 0 15px'}}>ETE´S</Link>
 
-                <Link id="azul1" className="navbar-brand" to='/Sobre' style={{ fontWeight: 'bold' , padding: '0 15px 0 15px'}} >DIRETÓRIO</Link>
+                <Link id="azul1" className="navbar-brand" to='/Projeto' style={{ fontWeight: 'bold' , padding: '0 15px 0 15px'}} >DIRETÓRIO</Link>
 
                 <Link id="azul1" className="navbar-brand" to='/Sobre' style={{ fontWeight: 'bold', padding: '0 15px 0 15px' }} >SOBRE</Link>
                 </div>

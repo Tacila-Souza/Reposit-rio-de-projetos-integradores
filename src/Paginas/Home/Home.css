@@ -45,7 +45,18 @@
 }
 
 .img_projeto_destaque{
-    height: 250px;
+
+    /*
+    height: 200px;
+    background-image: url(../../imagens/1.png);
+    */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.img_projeto_destaque1{
+    height: 200px;
     /*
     background-image: url(../../imagens/1.png);
     */
@@ -53,6 +64,7 @@
     background-position: center;
     border-radius: 10px;
 }
+
 
 /*box_pesquisa*/
 

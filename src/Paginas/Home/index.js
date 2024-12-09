@@ -1,5 +1,19 @@
 import  Navbar  from "../../Componentes/Navbar";
 import "./Home.css";
+import "../Projeto/index";
+
+import img1 from "../../imagens/1.png";
+import img2 from "../../imagens/2.png";
+import img3 from "../../imagens/3.png";
+
+import img4 from "../../imagens/4.png";
+import img5 from "../../imagens/5.png";
+import img6 from "../../imagens/6.png";
+import img7 from "../../imagens/7.png";
+import img8 from "../../imagens/8.png";
+import img9 from "../../imagens/9.png";
+import img10 from "../../imagens/10.png";
+import img11 from "../../imagens/11.png";
 
 function Home () {
   return (
@@ -39,19 +53,32 @@ function Home () {
     </h4>
     </div>
 
-    <div className="row justify-content center">
-    <div className="img_projeto_destaque w30" style={{width: '30%' , margin: '0 auto'}} id="img_projeto1">
-    </div>
+    {/*PROJETOS DESTAQUE*/}
 
-    <div className="img_projeto_destaque w30" style={{width: '30%' , margin: '0 auto' }} id="img_projeto2">
-    </div>
+                    <div className="row text-center" >
+                    
+                    <div className="col-lg-4 col-md-12 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img1} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-3" style={{}}>Scoop</h4>
+                        </a>
+                    </div>
 
-    <div className="img_projeto_destaque w30" style={{width: '30%' , margin: '0 auto'}} id="img_projeto3">
-    </div>
-    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img2} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-3" >Market delivery</h4>
+                        </a>
+                    </div>
 
-    {/*X-PROJETOS DESTAQUE*/}
+                    <div className="col-lg-4 col-md-12 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img3} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-3">Portal T.E.A</h4>
+                        </a>
+                    </div>
 
+                </div>
 
     {/*PESQUISA*/}
 
@@ -63,48 +90,79 @@ function Home () {
     </div>
     </div>
 
-    {/*X-PESQUISA*/}
 
-
-    {/*PROJETOS RECENTES*/}
-
-    <div id="projetos_recentes">
+    <div id="projetos_destaque" style={{margin:'0', padding:'0 0 30px 0'}}>
     <h4>Projetos recentes
     </h4>
     </div>
+    {/* ROW PROJETOS RECENTES 1*/}
 
-    <div className="row justify-content center">
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto4">
+    <div className="row text-center" >
+                    
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img4} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 4</h4>
+                        </a>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img5} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 5</h4>
+                        </a>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img6} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 6</h4>
+                        </a>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img7} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 7</h4>
+                        </a>
+                    </div>
+
     </div>
 
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto' }} id="img_projeto5">
-    </div>
 
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto6">
-    </div>
+        {/* ROW PROJETOS RECENTES 2*/}
 
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto7">
-    </div>
-    </div>
+        <div className="row text-center" style={{paddingBottom:'20px'}}>
+                    
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img8} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 8</h4>
+                        </a>
+                    </div>
 
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img9} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 9</h4>
+                        </a>
+                    </div>
 
-    <div className="row justify-content center">
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto8">
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img10} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 10</h4>
+                        </a>
+                    </div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12" >
+                        <a href="" url="" style={{textDecoration: 'none', margin:'0', padding:'0'}} >
+                        <img src={img11} className="img-fluid img_projeto_destaque" style={{height:'220px', width:'100%'}}></img>
+                        <h4 id="hazul" className="pt-2" style={{}}>Projeto 11</h4>
+                        </a>
+                    </div>
+
     </div>
-
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto9">
-    </div>
-
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto10">
-    </div>
-
-    <div className="img_projeto_destaque" style={{width: '22%' , margin: '0 auto 20px auto'}} id="img_projeto11">
-    </div>
-    </div>
-
-    {/*x-PROJETOS RECENTES*/}
-
-    <div style={{ height: '30px'}}>   </div>
 
   </div>{/*X-CONTAINER*/}
 

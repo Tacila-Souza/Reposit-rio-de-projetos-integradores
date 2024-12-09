@@ -11,28 +11,31 @@ function formulario() {
     
 
                 <div className="col-8 " style={{display:"block"}} > 
-                <h2 className="pt-4 pb-4" id="hazul">Criar conta </h2>
+                <h2 className="" id="hazul" style={{marginTop: "60px"}}>Criar conta </h2>
                 
                 
 
                 <link rel="stylesheet" href="style.css"/>
                 
-                <form className="row 2">
+
+                <form className="row 1 pb-3">
+
                   <div className="col-6">
                     <label for="exampleInputEmail1" className="form-label">Nome Completo</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                   </div>
                   <div className="col-6">
                     <label for="exampleInputPassword1" className="form-label">Data de Nascimento</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" />
+                    <input type="date" className="form-control" id="exampleInputPassword1" />
                   </div>
                   
                 </form>
 
-                <form className="row 3">
+                <form className="row 2 pb-3">
+                  
                   <div className="col-6">
                     <label for="exampleInputEmail1" className="form-label">Senha</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <input type="password" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                   </div>
                   <div className="col-6">
                     <label for="exampleInputPassword1" className="form-label">Confirme sua senha</label>
@@ -41,18 +44,18 @@ function formulario() {
                   
                 </form>
 
-                <form className="row 4">
+                <form className="row 3">
                   <div className="col-6">
                     <label for="exampleInputEmail1" className="form-label">Email </label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                   </div>
                   <div className="col-6">
                     <label for="exampleInputPassword1" className="form-label">Cidade</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" />
+                    <input type="email" className="form-control" id="exampleInputPassword1" />
                   </div>
                   
                 </form>
-<br></br>
+                <br></br>
                 <div className="centralizar">
                     <button type="submit" class="btn btn-primary centralizar" id="centralizar">Entrar</button>
                     </div>
